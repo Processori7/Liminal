@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+# Включение модуля ExpiresExpiresActive On# Кэширование шрифтов на 1 годExpiresByType application/x-font-ttf "access plus 1 year"ExpiresByType font/opentype "access plus 1 year"ExpiresByType application/font-woff "access plus 1 year"ExpiresByType image/svg+xml "access plus 1 year"ExpiresByType application/vnd.ms-fontobject "access plus 1 year"# Кэширование изображений в формате WebP на 1 месяцExpiresByType image/webp "access plus 1 month"

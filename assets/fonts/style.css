@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Evolve Sans EVO';
+    src: local('Evolve Sans EVO Thin'), local('Evolve-Sans-EVO-Thin'),
+        url('MADEEvolveSansEVO-Thin.woff2') format('woff2'),
+        url('MADEEvolveSansEVO-Thin.woff') format('woff'),
+        url('MADEEvolveSansEVO-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
